@@ -1,0 +1,71 @@
+.button_hero {
+    border-radius: 4px;
+    background-color: var(--navigation-color);
+    color: var(--primary-white-color);
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    padding: 10px 32px;
+    min-width: 216px;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition-delay: 1s; */
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+.button_hero:hover,
+.button_hero:focus {
+    background-color: var(--hover-navigation-color);
+}
+
+.button_hero:active {
+    background-color: var(--primary-white-color);
+    color: var(--navigation-color);
+}
+
+.button2 {
+    color: var(--primary-text-color);
+    background: var(--background-color3);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    transition: background-color 250ms var(--timing-function);
+}
+
+.button2:hover,
+.button2:focus {
+    color: var(--primary-white-color);
+    background-color: var(--navigation-color);
+    border-radius: 4px;
+}
+
+.button2:active {
+    background-color: var(--primary-white-color);
+    color: var(--navigation-color);
+}
+
+.knopka {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.knopka .item:not(:nth-child(5n)) {
+    margin-right: 8px;
+}

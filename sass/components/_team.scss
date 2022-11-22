@@ -1,0 +1,139 @@
+.picture {
+    text-decoration: underline transparent;
+}
+
+.poster .item:hover,
+.poster .item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.paragraph2 {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.paragraph3 {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    margin-top: 4px;
+}
+
+.people {
+    background: var(--background-color3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.people .item {
+    width: 270px;
+    background-color: var(--accent-color);
+    box-shadow: var(--box-shadow-people);
+    border-radius: var(--border-radius-people);
+    margin-right: 30px;
+}
+
+.people .item:last-child {
+    margin-right: 0px;
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list .social-items {
+    fill: var(--social-links);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list .social-link:not(:nth-child(4n)) {
+    margin-right: 10px;
+}
+
+.social-list .social-items:hover,
+.social-list .social-items:focus {
+    fill: var(--accent-color);
+    background-color: var(--navigation-color);
+}
+
+.social-list2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.devices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.devices .item {
+    margin-right: 30px;
+}
+
+.devices .item:last-child {
+    margin-right: 0px;
+}
+
+.devices_overlay {
+    background: var(--overlay-for-devices);
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.applications {
+    position: absolute;
+    padding: 27px 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+.devices .item {
+    position: relative;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.title2 {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,22 @@
+/*Header*/
+.logo {
+    color: var(--logo-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    /* transition: text-decoration 250ms var(--timing-function); */
+}
+
+.header {
+    background-color: var(--accent-color);
+    border-bottom: 1px solid #ececec;
+}
+
+.nav_icon {
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    fill: currentColor;
+}
