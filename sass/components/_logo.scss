@@ -8,7 +8,7 @@
     list-style: none;
 }
 
-.main_nav {
+.main__nav {
     display: flex;
     align-items: center;
 }
@@ -41,8 +41,8 @@
     transition: color 250ms var(--timing-function);
 }
 
-.site_nav .link:hover,
-.site_nav .link:focus {
+&:hover,
+&:focus {
     color: var(--navigation-color);
 }
 
@@ -81,7 +81,7 @@
     margin-left: 50px;
 }
 
-.auth_nav .contacts:hover,
-.auth_nav .contacts:focus {
+&:hover,
+&:focus {
     color: var(--navigation-color);
 }

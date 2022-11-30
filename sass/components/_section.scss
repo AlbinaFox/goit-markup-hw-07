@@ -12,7 +12,7 @@
     padding-top: 200px;
 }
 
-.overlay_hero {
+.overlay__hero {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
@@ -26,7 +26,7 @@
     background-size: cover;
 }
 
-.visually_hidden {
+.visually__hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -39,21 +39,21 @@
     margin: -1px;
 }
 
-.features_list .title {
+.features__list .title {
     color: var(--primary-text-color);
 }
 
-.features_list {
+.features__list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.features_list .item {
+.features__list .item {
     width: 270px;
     margin-right: 30px;
 }
 
-.features_list .item:last-child {
+.features__list .item:last-child {
     margin-right: 0px;
 }
 
@@ -71,12 +71,12 @@
     line-height: 1.71;
 }
 
-.no_padding {
+.no__padding {
     padding-top: 0px;
     padding-bottom: 94px;
 }
 
-.section_title2 {
+.section__title2 {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -93,6 +93,6 @@
     letter-spacing: 0.06em;
 }
 
-.icon_info {
+.icon__info {
     margin: 25px 100px;
 }

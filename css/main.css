@@ -85,7 +85,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.nav_icon {
+.nav__icon {
   margin-right: 10px;
   margin-bottom: 0;
   padding: 0;
@@ -102,7 +102,7 @@ img {
   list-style: none;
 }
 
-.main_nav {
+.main__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,7 +207,7 @@ img {
 }
 
 /*Hero*/
-.hero_title {
+.hero__title {
   color: var(--accent-color);
   font-weight: 900;
   font-size: 44px;
@@ -234,7 +234,7 @@ img {
   padding-top: 200px;
 }
 
-.overlay_hero {
+.overlay__hero {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -246,7 +246,7 @@ img {
   background-size: cover;
 }
 
-.visually_hidden {
+.visually__hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -260,11 +260,11 @@ img {
   margin: -1px;
 }
 
-.features_list .title {
+.features__list .title {
   color: var(--primary-text-color);
 }
 
-.features_list {
+.features__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,12 +272,12 @@ img {
       flex-wrap: wrap;
 }
 
-.features_list .item {
+.features__list .item {
   width: 270px;
   margin-right: 30px;
 }
 
-.features_list .item:last-child {
+.features__list .item:last-child {
   margin-right: 0px;
 }
 
@@ -295,12 +295,12 @@ img {
   line-height: 1.71;
 }
 
-.no_padding {
+.no__padding {
   padding-top: 0px;
   padding-bottom: 94px;
 }
 
-.section_title2 {
+.section__title2 {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -317,11 +317,11 @@ img {
   letter-spacing: 0.06em;
 }
 
-.icon_info {
+.icon__info {
   margin: 25px 100px;
 }
 
-.button_hero {
+.button__hero {
   border-radius: 4px;
   background-color: var(--navigation-color);
   color: var(--primary-white-color);
@@ -345,12 +345,12 @@ img {
   /* overflow: hidden; */
 }
 
-.button_hero:hover,
-.button_hero:focus {
+.button__hero:hover,
+.button__hero:focus {
   background-color: var(--hover-navigation-color);
 }
 
-.button_hero:active {
+.button__hero:active {
   background-color: var(--primary-white-color);
   color: var(--navigation-color);
 }
@@ -652,8 +652,8 @@ img {
   margin-bottom: 9px;
 }
 
-.address:hover,
-.address:focus {
+address:hover,
+address:focus {
   color: var(--navigation-color);
 }
 
@@ -971,7 +971,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close_button {
+.close__button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -994,13 +994,13 @@ img {
   transition: fill 250ms var(--timing-function);
 }
 
-.close_button:hover,
-.close_button:focus {
+.close__button:hover,
+.close__button:focus {
   fill: var(--navigation-color);
 }
 
 /* Практика по 6-ому модулі*/
-.modal_text {
+.modal__text {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -1010,7 +1010,7 @@ img {
   margin-bottom: 12px;
 }
 
-.form_modal {
+.form__modal {
   text-align: center;
   width: 528px;
   height: 581px;
@@ -1020,7 +1020,7 @@ img {
   padding: 40px;
 }
 
-.form_field {
+.form__field {
   position: relative;
   /* outline: 1px solid red; */
   margin-bottom: 10px;
@@ -1034,7 +1034,7 @@ img {
   text-align: left;
 }
 
-.label-form_modal {
+.label-form__modal {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.1666666667;
@@ -1043,7 +1043,7 @@ img {
   margin-bottom: 4px;
 }
 
-.input-form_modal {
+.input-form__modal {
   width: 100%;
   height: 40px;
   padding: 12px;
@@ -1061,18 +1061,18 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-form_modal:hover,
-.input-form_modal:focus {
+.input-form__modal:hover,
+.input-form__modal:focus {
   outline: none;
   border-color: var(--navigation-color);
 }
 
-.input-form_modal:hover + .icon-form_modal,
-.input-form_modal:focus + .icon-form_modal {
+.input-form__modal:hover + .icon-form__modal,
+.input-form__modal:focus + .icon-form__modal {
   fill: var(--navigation-color);
 }
 
-.icon-form_modal {
+.icon-form__modal {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -1142,7 +1142,7 @@ textarea::placeholder {
   border-color: var(--navigation-color);
 }
 
-.check-form_field {
+.check-form__field {
   margin-top: 20px;
   margin-bottom: 30px;
   padding-left: 14px;

@@ -41,8 +41,8 @@
     margin-left: 10px;
 }
 
-.button-submit-footer:hover,
-.button-submit-footer:focus {
+&:hover,
+&:focus {
     background-color: var(--hover-navigation-color);
 }
 

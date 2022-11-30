@@ -37,14 +37,14 @@
     margin-right: 30px;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+&:hover,
+& :focus {
     color: var(--navigation-color);
     border-color: var(--navigation-color);
 }
 
-.clients-list .item-clients:hover,
-.clients-list .item-clients:focus {
+&:hover,
+&:focus {
     fill: var(--navigation-color);
     border-color: var(--navigation-color);
 }

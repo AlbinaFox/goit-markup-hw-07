@@ -26,8 +26,8 @@
     margin-bottom: 9px;
 }
 
-.address:hover,
-.address:focus {
+&:hover,
+&:focus {
     color: var(--navigation-color);
 }
 
@@ -42,8 +42,8 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.city:hover,
-.city:focus {
+&:hover,
+&:focus {
     color: var(--navigation-color);
 }
 
@@ -103,7 +103,7 @@
     margin-right: 10px;
 }
 
-.social-items:hover,
-.social-items:focus {
+&:hover,
+&:focus {
     background-color: var(--navigation-color);
 }

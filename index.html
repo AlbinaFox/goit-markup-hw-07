@@ -11,12 +11,12 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
         <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+
 </head>
 
 <body class="page">
     <header class="header">
-        <div class="container main_nav">
+        <div class="container main__nav">
             <a href="./index.html" class="logo"><span class="logotype">Web</span>Studio</a>
             <nav>
                 <!-- Навігація на інші сторінки -->
@@ -31,13 +31,13 @@
                 </ul>
             </nav>
             <ul class="auth_nav list">
-                <li class="item contacts_header">
-                    <a href="mailto:info@devstudio.com" class="contacts"><svg class="nav_icon" width="16" height="12">
+                <li class="item contacts__header">
+                    <a href="mailto:info@devstudio.com" class="contacts"><svg class="nav__icon" width="16" height="12">
                             <use href="./image4/icomoon.svg#icon-envelope-hover-2"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li class="item contacts_header">
-                    <a href="tel:+380961111111" class="contacts"><svg class="nav_icon" width="10" height="16">
+                <li class="item contacts__header">
+                    <a href="tel:+380961111111" class="contacts"><svg class="nav__icon" width="10" height="16">
                             <use href="./image4/icomoon.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a>
                 </li>
@@ -46,48 +46,48 @@
     </header>
     <main>
         <!--Section-->
-        <section class="section hero overlay_hero ">
+        <section class="section hero overlay__hero ">
             <div class="container">
-                <h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="button_hero" data-modal-open>Замовити послугу</button>
+                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                <button type="button" class="button__hero" data-modal-open>Замовити послугу</button>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
-                        <button data-modal-close class="close_button"><svg width="18" height="18">
+                        <button data-modal-close class="close__button"><svg width="18" height="18">
                                 <use href="./image4/close.svg#icon-close-1"></use>
                             </svg></button>
 
-                        <form class="form_modal" autocomplete="off">
-                            <p class="modal_text">Залиште свої дані, ми вам передзвонимо</p>
-                            <div class="form_field">
-                                <label class="label-form_modal" for="name">Ім'я</label>
-                                <input class="input-form_modal" type="text" name="name" id="name">
-                                <svg class="icon-form_modal" width="18" height="18">
+                        <form class="form__modal" autocomplete="off">
+                            <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
+                            <div class="form__field">
+                                <label class="label-form__modal" for="name">Ім'я</label>
+                                <input class="input-form__modal" type="text" name="name" id="name">
+                                <svg class="icon-form__modal" width="18" height="18">
                                     <use href="./imgH6/update.svg#icon-person-black-18dp-1"></use>
                                 </svg>
                             </div>
 
-                            <div class="form_field">
-                                <label class="label-form_modal" for="tel">Телефон</label>
-                                <input class="input-form_modal" type="tel" name="tel" id="tel">
-                                <svg class="icon-form_modal" width="18" height="18">
+                            <div class="form__field">
+                                <label class="label-form__modal" for="tel">Телефон</label>
+                                <input class="input-form__modal" type="tel" name="tel" id="tel">
+                                <svg class="icon-form__modal" width="18" height="18">
                                     <use href="./imgH6/update.svg#icon-phone-black-18dp-1"></use>
                                 </svg>
                             </div>
 
-                            <div class="form_field">
-                                <label class="label-form_modal" for="email">Пошта</label>
-                                <input class="input-form_modal" type="email" name="email" id="email" />
-                                <svg class="icon-form_modal" width="18" height="18">
+                            <div class="form__field">
+                                <label class="label-form__modal" for="email">Пошта</label>
+                                <input class="input-form__modal" type="email" name="email" id="email" />
+                                <svg class="icon-form__modal" width="18" height="18">
                                     <use href="./imgH6/update.svg#icon-email-black-18dp-1"></use>
                                 </svg>
                             </div>
 
-                            <div class="form_field">
-                                <label class="label-form_modal" for="comment">Коментар</label>
+                            <div class="form__field">
+                                <label class="label-form__modal" for="comment">Коментар</label>
                                 <textarea class="comment" name="comment" id="comment" rows="5"
                                     placeholder="Введіть текст"></textarea>
                             </div>
-                            <div class="check-form_field">
+                            <div class="check-form__field">
                                 <label class="label-check" for="policy">
                                     <input class="check_form" type="checkbox" name="policy" value="policy"
                                         id="policy" /><span class="icon-check"></span>
@@ -106,11 +106,11 @@
         <!--Переваги-->
         <section class="section">
             <div class="container">
-                <h2 class="visually_hidden">Критерії ведення ефективного бізнесу</h2>
-                <ul class="features_list list">
+                <h2 class="visually__hidden">Критерії ведення ефективного бізнесу</h2>
+                <ul class="features__list list">
                     <li class="item">
                         <div class="icon">
-                            <svg class="icon_info" width="70" height="70">
+                            <svg class="icon__info" width="70" height="70">
                                 <use href="./image4/symbol-defs1.svg#icon-antenna-5"></use>
                             </svg>
                         </div>
@@ -122,7 +122,7 @@
                     </li>
                     <li class="item">
                         <div class="icon">
-                            <svg class="icon_info" width="70" height="70">
+                            <svg class="icon__info" width="70" height="70">
                                 <use href="./image4/symbol-defs1.svg#icon-clock-5"></use>
                             </svg>
                         </div>
@@ -134,7 +134,7 @@
                     </li>
                     <li class="item">
                         <div class="icon">
-                            <svg class="icon_info" width="70" height="70">
+                            <svg class="icon__info" width="70" height="70">
                                 <use href="./image4/symbol-defs1.svg#icon-diagram-5"></use>
                             </svg>
                         </div>
@@ -145,7 +145,7 @@
                     </li>
                     <li class="item">
                         <div class="icon">
-                            <svg class="icon_info" width="70" height="70">
+                            <svg class="icon__info" width="70" height="70">
                                 <use href="./image4/symbol-defs1.svg#icon-astronaut-5"></use>
                             </svg>
                         </div>
@@ -164,9 +164,9 @@
                 </ul>
         </section>
 
-        <section class="no_padding">
+        <section class="no__padding">
             <div class="container">
-                <h2 class="section_title2">Чим ми займаємося</h2>
+                <h2 class="section__title2">Чим ми займаємося</h2>
                 <ul class="devices list">
                     <li class="item">
                         <img src="./images/teamwork/work1.jpg" alt="Робота за комп'ютером" width="370" height="294" />
@@ -192,7 +192,7 @@
         <!--Section-->
         <section class="people section">
             <div class="container">
-                <h2 class="section_title2">Наша команда</h2>
+                <h2 class="section__title2">Наша команда</h2>
                 <ul class="people list">
                     <li class="item">
                         <img src="./images/teamwork/designer.jpg" alt="Чоловік" width="270" height="260" />
